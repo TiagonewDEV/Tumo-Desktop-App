@@ -7,19 +7,12 @@
   "author": "Louis Gallet <louis.gallet@tumo.world>",
   "scripts": {
     "start": "electron .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder",
-    "postinstall": "electron-builder install-app-deps"
-  },
-  "build": {
-    "appId": "me.louisgallet.tumo-world-app",
-    "mac": {
-      "category": "other"
-    }
+    "build": "electron-forge make"
   },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "electron": "^12.0.1",
-    "electron-builder": "^22.10.5"
+    "electron-forge": "^5.2.4",
+    "fs-xattr": "^0.3.1"
   }
 }
