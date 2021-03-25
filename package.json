@@ -1,0 +1,18 @@
+{
+  "name": "Tumo-Desktop-App",
+  "version": "1.0.0",
+  "description": "TUMO World Application for Mac and Windows",
+  "main": "index.js",
+  "repository": "https://louisgallet95@github.com/l0u1sg/Tumo-Desktop-App.git",
+  "author": "Louis Gallet <louis.gallet@tumo.world>",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-forge make"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.1",
+    "electron-forge": "^5.2.4",
+    "fs-xattr": "^0.3.1"
+  }
+}
